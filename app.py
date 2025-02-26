@@ -78,7 +78,7 @@ pred_proba = prediction[0][0]
 st.write("The prediction is ->", pred_proba)
 
 # Display result
-if pred_proba >= 0.05:
+if pred_proba >= 0.5:
     st.write("The customer is likely to churn")
 else:
     st.write("The customer is not likely to churn")
